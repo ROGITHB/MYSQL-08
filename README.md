@@ -73,7 +73,11 @@ The system consists of three core tables:
 9. **Normalize the database by creating a separate table for order items**
     ```sql
      INSERT INTO order_items (order_id, product_id, quantity)
-     VALUES(1, 1, 2),
+     VALUES(1, 1, 2),(1, 2, 1),(2, 3, 1),(2, 4, 3),(3, 5, 2),(3, 6, 1),
+    (4, 1, 3),(4, 7, 2),(5, 8, 1),(5, 2, 1),(6, 9, 1),(6, 10, 2),
+    (7, 3, 1),(7, 5, 2),(8, 6, 1),(8, 8, 1),(9, 2, 1),(9, 4, 2),
+    (10, 10, 1),
+    (10, 1, 3);
 
 10. **Retrieve the average total of all orders**:
     ```sql
