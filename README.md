@@ -1,4 +1,4 @@
-# E-Commerce Database System
+# E-Commerce Database Management System
 
 This project is a simple **E-Commerce Database Management System** built using **MySQL**. The database is structured to manage customers, orders, and products efficiently. The database design follows **normalization principles**, ensuring data consistency and optimal performance.
 
