@@ -70,7 +70,10 @@ The system consists of three core tables:
     WHERE total_amount > 150.00;
     ```
 
-9. **Normalize the database by creating a separate table for order items** (Already done).
+9. **Normalize the database by creating a separate table for order items**
+    ```sql
+     INSERT INTO order_items (order_id, product_id, quantity)
+     VALUES(1, 1, 2),
 
 10. **Retrieve the average total of all orders**:
     ```sql
