@@ -5,12 +5,15 @@ This project is a simple **E-Commerce Database Management System** built using *
 ## Database Overview
 
 The system consists of three core tables:
+     1.customer
+     2.orders
+     3.products
 
 - **Customers**: Stores customer information.
 - **Orders**: Stores information about each order placed by customers.
 - **Products**: Stores the product details.
 - **Order_Items**: Normalized table to manage products within each order.
-## Queries Included
+## Queries to write
 
 1. **Retrieve all customers who have placed an order in the last 30 days**:
     ```sql
